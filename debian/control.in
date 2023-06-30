@@ -15,7 +15,7 @@ Build-Depends: debhelper-compat (= 13),
                gnome-settings-daemon-common <!nocheck>,
                gnome-settings-daemon-dev,
                gobject-introspection (>= 1.41.3),
-               gsettings-desktop-schemas-dev (>= 40~alpha),
+               gsettings-desktop-schemas-dev (>= 42),
                gtk-doc-tools (>= 1.15),
                libcairo2-dev (>= 1.10.0),
                libcanberra-gtk3-dev,
@@ -85,20 +85,23 @@ Package: magpie
 Architecture: linux-any
 Depends: adwaita-icon-theme,
          gnome-settings-daemon-common,
-         gsettings-desktop-schemas (>= 40~alpha),
+         gsettings-desktop-schemas (>= 42),
          mutter-common,
          magpie-common,
          zenity,
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: x-window-manager
-Suggests: gnome-control-center (>= 1:3.25.2),
+Suggests: budgie-control-center,
           xdg-user-dirs
-Description: Example window manager using GNOME's window manager library
+Description: Example window manager and compositor library
  magpie is a X11 window manager and compositor library. It contains
  functionality related to, among other things, window management, window
  compositing, focus tracking, workspace management, keybindings and monitor
  configuration.
+ ,
+ Magpie is a soft-fork of GNOME mutter v43.x tailored for the requirements
+ of the budgie-desktop.
  .
  Internally it uses a fork of Cogl, a hardware acceleration abstraction
  library used to simplify usage of OpenGL pipelines, as well as a fork
@@ -121,6 +124,9 @@ Description: GObject introspection data for magpie
  compositing, focus tracking, workspace management, keybindings and monitor
  configuration.
  .
+ Magpie is a soft-fork of GNOME mutter v43.x tailored for the requirements
+ of the budgie-desktop.
+ .
  Internally it uses a fork of Cogl, a hardware acceleration abstraction
  library used to simplify usage of OpenGL pipelines, as well as a fork
  of Clutter, a scene graph and user interface toolkit.
@@ -134,22 +140,19 @@ Architecture: linux-any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: adwaita-icon-theme,
-         gsettings-desktop-schemas (>= 40~alpha),
+         gsettings-desktop-schemas (>= 42),
          mutter-common,
          magpie-common,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: apparmor (<< 2.13.3-5~),
-        gnome-control-center (<< 1:3.25.2),
-        gnome-settings-daemon (<< 3.31.101),
-        gnome-shell (<< 42~rc),
-        libgtk-3-0 (<< 3.24.33-2~),
-        libgtk-4-1 (<< 4.6.3+ds1-2~)
 Description: window manager library from the magpie window manager
  magpie is a X11 window manager and compositor library. It contains
  functionality related to, among other things, window management, window
  compositing, focus tracking, workspace management, keybindings and monitor
  configuration.
+ .
+ Magpie is a soft-fork of GNOME mutter v43.x tailored for the requirements
+ of the budgie-desktop.
  .
  Internally it uses a fork of Cogl, a hardware acceleration abstraction
  library used to simplify usage of OpenGL pipelines, as well as a fork
@@ -163,7 +166,7 @@ Section: libdevel
 Architecture: linux-any
 Multi-Arch: same
 Depends: gir1.2-magpie-0 (= ${binary:Version}),
-         gsettings-desktop-schemas-dev (>= 40~alpha),
+         gsettings-desktop-schemas-dev (>= 42),
          libatk1.0-dev,
          libcairo2-dev,
          libdrm-dev,
@@ -193,7 +196,7 @@ Description: Development files for the magpie window manager
  configuration.
  .
  Magpie is a soft-fork of GNOME mutter v43.x tailored for the requirements
- of the budgie-desktop
+ of the budgie-desktop.
  .
  Internally it uses a fork of Cogl, a hardware acceleration abstraction
  library used to simplify usage of OpenGL pipelines, as well as a fork
@@ -211,6 +214,9 @@ Description: shared files for the magpie window manager
  functionality related to, among other things, window management, window
  compositing, focus tracking, workspace management, keybindings and monitor
  configuration.
+ .
+ Magpie is a soft-fork of GNOME mutter v43.x tailored for the requirements
+ of the budgie-desktop.
  .
  Internally it uses a fork of Cogl, a hardware acceleration abstraction
  library used to simplify usage of OpenGL pipelines, as well as a fork

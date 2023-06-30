@@ -5,4 +5,3 @@
 #usr/share/gnome-control-center
 usr/share/locale
 usr/share/man
-usr/share/glib-2.0/schemas/org.gnome.mutter.x11.gschema.xml
