@@ -1,0 +1,10 @@
+usr/include/magpie-${env:MAGPIE_API_VERSION}/clutter
+usr/include/magpie-${env:MAGPIE_API_VERSION}/cogl
+usr/include/magpie-${env:MAGPIE_API_VERSION}/meta
+usr/lib/${DEB_HOST_MULTIARCH}/libmagpie-${env:MAGPIE_API_VERSION}.so
+usr/lib/${DEB_HOST_MULTIARCH}/magpie-${env:MAGPIE_API_VERSION}/*.so
+usr/lib/${DEB_HOST_MULTIARCH}/magpie-${env:MAGPIE_API_VERSION}/*.gir
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/libmagpie-${env:MAGPIE_API_VERSION}.pc
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/magpie-clutter-${env:MAGPIE_API_VERSION}.pc
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/magpie-cogl-${env:MAGPIE_API_VERSION}.pc
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/magpie-cogl-pango-${env:MAGPIE_API_VERSION}.pc
