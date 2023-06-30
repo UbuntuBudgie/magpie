@@ -1,5 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/buddiesofbudgie/magpie/
+Upstream-Name: magpie
+Upstream-Contact: Budgie Developers <admin@buddiesofbudgie.org>
 
 Files:
  *
@@ -118,6 +120,10 @@ Copyright:
  2001 Havoc Pennington
  2002 Red Hat Inc
 License: DEC-BSD-variant and OpenGroup-BSD-variant and GPL-2+
+
+Files: debian/*
+Copyright: 2023, David Mohammed <fossfreedom@ubuntu.com>
+License: GPL-2+
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
