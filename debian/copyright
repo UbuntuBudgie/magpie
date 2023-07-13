@@ -110,17 +110,20 @@ Copyright:
 License: GPL-2+ and GPL-3+ and LGPL-2+ and LGPL-2.1+ and Expat and NTP-BSD-variant and SGI-B-2.0
 
 Files:
+ src/tests/share/icc/vx239-calibrated.icc
+ src/tests/icc-profiles/vx239-calibrated.icc
+ src/tests/icc-profiles/sRGB.icc
+Copyright: 2022 Jonas Ådahl
+Comment: Files from https://gitlab.gnome.org/GNOME/mutter published under the
+ project GPL-2+ license
+License: GPL-2+
+
+Files:
  cogl/cogl/cogl-point-in-poly.c
 Copyright:
  1970-2003 Wm. Randolph Franklin
  2011 Intel Corporation
 License: WRF-BSD-variant
-
-Files:
- src/tests/share/icc/vx239-calibrated.icc
-Copyright: none
-License:
- This profile is free of known copyright restrictions
 
 Files:
  src/x11/mutter-Xatomtype.h
