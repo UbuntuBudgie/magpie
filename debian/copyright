@@ -12,17 +12,21 @@ Copyright:
    2012  Bastian Winkler
    1999-2005  Brian Paul
    2005-2021  Canonical Ltd.
+   2001  Carsten Schaar
    2021  Christian Rauch
-   2011-2014  Collabora Ltd
+   2011-2014  Collabora Ltd.
+   2012-2022  Collabora, Ltd.
    1997-2000  Dan Pascu and Alfredo Kojima
    1987  Digital Equipment Corporation
    2018-2020  DisplayLink (UK) Ltd.
    2001  Dominik Vogt
+   2022  Dor Askayo
    2000-2001  Eazel, Inc.
    2004-2006  Elijah Newren
    2013-2015  Emmanuele Bassi
    2018-2020  Endless, Inc.
    2020  Endless Foundation
+   2020  Endless OS Foundation, LLC
    2014  Endless Mobile
    1999-2000  Erik Walthinsen
    1999-2020  Free Software Foundation, Inc.
@@ -37,7 +41,8 @@ Copyright:
    2007-2008  Iain Holmes
    2008-2010  Igalia, S.L.
    2010-2012  Inclusive Design Research Centre, OCAD University
-   2007-2017  Intel Corporation
+   2007-2022  Intel Corporation
+   2020  Ivan Molodetskikh
    2002  James M. Cape
    2011  Joe Hansen
    2014  Jonas Ådahl
@@ -56,12 +61,15 @@ Copyright:
    2001  Matthias Clasen
    2010  Milan Bouchet-Valat
    2003-2006  Miloslav Trmac
+   2022  Neil Moore
    2011  NVIDIA Corporation
    2002  Ole Laursen
    2005-2007  Olivier Fourdan
    2006-2008  OpenedHand Ltd
    1995-1997  Peter Mattis
-   2001-2022  Red Hat Inc
+   2001-2023  Red Hat
+   2001-2023  Red Hat Inc.
+   2001-2023  Red Hat, Inc.
    2014  Rico Tzschichholz
    2003-2004  Rob Adams
    2011  Robert Bosch Car Multimedia GmbH
@@ -69,6 +77,7 @@ Copyright:
    2004-2008  Rodney Dawes
    2005-2011  Rosetta Contributors
    2002  Ross Burton
+   2015  Samsung Electronics Co., Ltd
    2009  Sander Dijkhuis
    2004  Scott James Remnant
    2020  Sebastian Wick
@@ -84,10 +93,13 @@ Copyright:
    1986-1998  The Open Group
    2008-2009  Thomas Thurman
    1998  Tim Janik
+   2001  Tom Tromey
+   2002  Thomas Vander Stichele
    2008  Tungsten Graphics Inc
    2002  Tuomas Kuosmanen
    1995-1997  Ulrich Drepper
    2007  William Jon McCann
+   2000  Wim Taymans
    1988  Wyse Technology, Inc.
    1994  X Consortium
    2001  Ximian, Inc.
@@ -103,6 +115,12 @@ Copyright:
  1970-2003 Wm. Randolph Franklin
  2011 Intel Corporation
 License: WRF-BSD-variant
+
+Files:
+ src/tests/share/icc/vx239-calibrated.icc
+Copyright: none
+License:
+ This profile is free of known copyright restrictions
 
 Files:
  src/x11/mutter-Xatomtype.h
