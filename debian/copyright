@@ -9,6 +9,7 @@ Copyright:
    2004-2006  Adam Weinberger
    2001  Anders Carlsson
    2007-2018  Ask Hjorth Larsen
+   2021  Akihiko Odaki
    2012  Bastian Winkler
    1999-2005  Brian Paul
    2005-2021  Canonical Ltd.
@@ -44,6 +45,7 @@ Copyright:
    2007-2022  Intel Corporation
    2020  Ivan Molodetskikh
    2002  James M. Cape
+   2021  Jeremy Cline
    2011  Joe Hansen
    2014  Jonas Ådahl
    2020  Jonas Dreßler
@@ -62,7 +64,7 @@ Copyright:
    2010  Milan Bouchet-Valat
    2003-2006  Miloslav Trmac
    2022  Neil Moore
-   2011  NVIDIA Corporation
+   2011-2020  NVIDIA Corporation
    2002  Ole Laursen
    2005-2007  Olivier Fourdan
    2006-2008  OpenedHand Ltd
@@ -71,6 +73,7 @@ Copyright:
    2001-2023  Red Hat Inc.
    2001-2023  Red Hat, Inc.
    2014  Rico Tzschichholz
+   2011-2013  Richard Hughes
    2003-2004  Rob Adams
    2011  Robert Bosch Car Multimedia GmbH
    2018-2021  Robert Mader
@@ -142,6 +145,14 @@ Copyright:
  2002 Red Hat Inc
 License: DEC-BSD-variant and OpenGroup-BSD-variant and GPL-2+
 
+Files:
+ src/tests/clutter/interactive/test-rotate-zoom.c
+ src/tests/clutter/interactive/test-touch-events.c
+Copyright:
+ 2013 Intel Corporation
+ 2012 Collabora Ltd
+License: LGPL-2.1
+
 Files: debian/*
 Copyright: 2023, David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
@@ -190,6 +201,20 @@ Comment:
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in
  /usr/share/common-licenses/LGPL-2, and the complete text of the
+ GNU Lesser General Public License version 2.1 can be found in
+ /usr/share/common-licenses/LGPL-2.1.
+
+License: LGPL-2.1
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public License,
+ version 2.1 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+Comment:
+ On Debian systems, the complete text of the
  GNU Lesser General Public License version 2.1 can be found in
  /usr/share/common-licenses/LGPL-2.1.
 

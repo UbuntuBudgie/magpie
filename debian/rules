@@ -2,15 +2,12 @@
 
 include /usr/share/dpkg/default.mk
 
-# create a list of binaries - use this to define all dependencies in control.in
-built_binaries := $(shell dh_listpackages)
-
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1
 export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
 
 # Specifically define the API/SONAME here to be used as part of
-# dh_shlibdeps definition
+# dh_shlibdeps definition as well as the dev/gir install files
 MAGPIE_API_VERSION = 0
 MAGPIE_SONAME = 0
 
