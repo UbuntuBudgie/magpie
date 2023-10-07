@@ -1,5 +1,5 @@
-magpie (0.9.2-1) experimental; urgency=medium
+magpie (0.9.3-1) unstable; urgency=medium
 
   * Initial Release (Closes: #1040005)
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 13 Jul 2023 22:53:12 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 07 Oct 2023 15:29:28 +0100

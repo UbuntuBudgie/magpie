@@ -3,159 +3,703 @@ Source: https://github.com/buddiesofbudgie/magpie/
 Upstream-Name: magpie
 Upstream-Contact: Budgie Developers <admin@buddiesofbudgie.org>
 
-Files:
- *
+Files: *
 Copyright:
-   2004-2006  Adam Weinberger
-   2001  Anders Carlsson
-   2007-2018  Ask Hjorth Larsen
-   2021  Akihiko Odaki
-   2012  Bastian Winkler
-   1999-2005  Brian Paul
-   2005-2021  Canonical Ltd.
-   2001  Carsten Schaar
-   2021  Christian Rauch
-   2011-2014  Collabora Ltd.
-   2012-2022  Collabora, Ltd.
-   1997-2000  Dan Pascu and Alfredo Kojima
-   1987  Digital Equipment Corporation
-   2018-2020  DisplayLink (UK) Ltd.
-   2001  Dominik Vogt
-   2022  Dor Askayo
-   2000-2001  Eazel, Inc.
-   2004-2006  Elijah Newren
-   2013-2015  Emmanuele Bassi
-   2018-2020  Endless, Inc.
-   2020  Endless Foundation
-   2020  Endless OS Foundation, LLC
-   2014  Endless Mobile
-   1999-2000  Erik Walthinsen
-   1999-2020  Free Software Foundation, Inc.
-   2008-2016  GNOME i18n Project for Vietnamese
-   1995-2000  GTK+ Team
-   2002  Garrett LeSage
-   2002  Gaute Lindkvist
-   2020  Georges Basile Stavracas Neto
-   2001-2008  Havoc Pennington
-   2001-2008  Havoc Pennington, Red Hat, Inc., and others
-   2016  Hyungwon Hwang
-   2007-2008  Iain Holmes
-   2008-2010  Igalia, S.L.
-   2010-2012  Inclusive Design Research Centre, OCAD University
-   2007-2022  Intel Corporation
-   2020  Ivan Molodetskikh
-   2002  James M. Cape
-   2021  Jeremy Cline
-   2011  Joe Hansen
-   2014  Jonas Ådahl
-   2020  Jonas Dreßler
-   2002  Jorn Baayen
-   1995-1997  Josh MacDonald
-   2004  Kakilik Project
-   2003-2013  Keith Packard
-   2002  Keld simonsen
-   2008  Kenneth Nielsen
-   2002  Kjartan Maraas
-   2008-2011  Kristian Høgsberg
-   2006  Lasse Bang Mikkelsen
-   2004-2005  Martin Willemoes Hansen
-   2008  Matthew Allum
-   2001  Matthias Clasen
-   2010  Milan Bouchet-Valat
-   2003-2006  Miloslav Trmac
-   2022  Neil Moore
-   2011-2020  NVIDIA Corporation
-   2002  Ole Laursen
-   2005-2007  Olivier Fourdan
-   2006-2008  OpenedHand Ltd
-   1995-1997  Peter Mattis
-   2001-2023  Red Hat
-   2001-2023  Red Hat Inc.
-   2001-2023  Red Hat, Inc.
-   2014  Rico Tzschichholz
-   2011-2013  Richard Hughes
-   2003-2004  Rob Adams
-   2011  Robert Bosch Car Multimedia GmbH
-   2018-2021  Robert Mader
-   2004-2008  Rodney Dawes
-   2005-2011  Rosetta Contributors
-   2002  Ross Burton
-   2015  Samsung Electronics Co., Ltd
-   2009  Sander Dijkhuis
-   2004  Scott James Remnant
-   2020  Sebastian Wick
-   2019  Sergio Costas
-   2003-2006  Sharif FarsiWeb, Inc.
-   1991-2000  Silicon Graphics Inc
-   2018-2020  Simon McVittie
-   2002  Simos Xenitellis
-   1995-1997  Spencer Kimball
-   2001-2003  Sun Microsystems Inc
-   2002-2006  The GNOME Foundation
-   2007  The GNOME Project
-   1986-1998  The Open Group
-   2008-2009  Thomas Thurman
-   1998  Tim Janik
-   2001  Tom Tromey
-   2002  Thomas Vander Stichele
-   2008  Tungsten Graphics Inc
-   2002  Tuomas Kuosmanen
-   1995-1997  Ulrich Drepper
-   2007  William Jon McCann
-   2000  Wim Taymans
-   1988  Wyse Technology, Inc.
-   1994  X Consortium
-   2001  Ximian, Inc.
-   2001  fvwm2 team
-   2002-2020  the mutter authors
-   2003  Åsmund Skjæveland.
-   (unspecified) Croatiann team
-License: GPL-2+ and GPL-3+ and LGPL-2+ and LGPL-2.1+ and Expat and NTP-BSD-variant and SGI-B-2.0
-
-Files:
- src/tests/share/icc/vx239-calibrated.icc
- src/tests/icc-profiles/vx239-calibrated.icc
- src/tests/icc-profiles/sRGB.icc
-Copyright: 2022 Jonas Ådahl
-Comment: Files from https://gitlab.gnome.org/GNOME/mutter published under the
- project GPL-2+ license
+  2001-2005, Christian Rose <menthos@menthos.com>
+  1995-2000, GTK+ Team
+  200, Andraž Tori
+  2001-2003, Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>
+  2001-2005, Manuel A. Fernández Montecelo
+  2001-2014, Duarte Loreto
+  2001-2022, Free Software Foundation, Inc.
+  2001-2022, Red Hat, Inc.
+  2001, 2002, Havoc Pennington
+  2001, Dominik Vogt, Matthias Clasen, and fvwm2 team
+  2001, Havoc Pennington (some code in here from libgnomeui, (C) Tom Tromey, Carsten Schaar)
+  2001, Havoc Pennington, Anders Carlsson
+  2001, Héctor García Álvarez
+  2001, Valek Filippov
+  2001, Ximian, Inc.
+  2002-2003, Abel Cheung
+  2002-2003, Andras Timar
+  2002-2003, Dmitry G. Mastrukov
+  2002-2003, Gil 'Dolfin' Osher
+  2002-2003, Hasbullah Bin Pit
+  2002-2003, Pablo Gonzalo del Campo
+  2002-2003, Zbigniew Chyla
+  2002-2004, Christian Neumair
+  2002-2004, Mətin Əmirov
+  2002-2006, Christophe Merlet (RedFox)
+  2002-2006, Kostas Papadimas
+  2002-2006, Young-Ho, Cha
+  2002-2007, Mugurel Tudor
+  2002-2013, Nguyễn Thái Ngọc Duy
+  2002-2020, Kjartan Maraas
+  2002-2022, Alexander Shopov
+  2002-2023, Red Hat Inc.
+  2002, Akira TAGOH
+  2002, Christophe Fergeau
+  2002, Ge'ez Frontier Foundation
+  2002, Guy Clotilde
+  2002, He Qiangqiang
+  2002, Jesús Moreno
+  2002, Keld simonsen
+  2002, Kjartan Maraas
+  2002, Matthias Warkus
+  2002, Ole Laursen
+  2002, Pier Luigi Fiorini
+  2002, Robert Brady, Bastien Nocera
+  2002, Simos Xenitellis
+  2002, Softcatala
+  2002, Sun G11n
+  2002, Sun Microsystems Inc.
+  2003-2004, Dafydd Harries
+  2003-2004, Funda Wang
+  2003-2004, kostas
+  2003-2005, Artur Flinta
+  2003-2005, Mohammad DAMT
+  2003-2005, Pauli Virtanen
+  2003-2006 Miloslav Trmac
+  2003-2006, Åsmund Skjæveland
+  2003-2006, Evandro Fernandes Giovanini
+  2003-2006, Sharif FarsiWeb, Inc.
+  2003-2007, Žygimantas Beručka
+  2003-2008, aurent Dhima
+  2003-2008, Jordi Mallach
+  2003-2008, Tino Meinen
+  2003-2011, Takeshi AIHANA
+  2003-2016, Reinout van Schouwen
+  2003-2017, Changwoo Ryu
+  2003-2022, Prevod.org team
+  2003, 2004, Rob Adams
+  2003, Andrew w. Nosenko
+  2003, Arafat Medini
+  2003, Chanchai Junlouchai
+  2003, Dr Anirban Mitra
+  2003, FSF-India
+  2003, G Karunakar
+  2003, Gabor Sari
+  2003, Goran Rakić
+  2003, KAMAGASAKO Masatoshi
+  2003, Keith Packard
+  2003, Keith Willoughby
+  2003, Lapo Calamandrei
+  2003, Nikos Charonitakis
+  2003, Ochirbat Batzaya
+  2003, Pablo Saratxaga
+  2003, Paul Duffy
+  2003, Phakhinee Thangnithirat
+  2003, Roozbeh Pournader
+  2003, Sanlig Badral <badral@chinggis.com>
+  2003, Sanlig Badral <badral@users.sf.net>
+  2003, Sinan İmamoğlu
+  2003, Stanislav Visnovsky <visnovsky@kde.org>
+  2003, Tomas Kuliavas
+  2003, Xiong Jiang
+  2003, Yukihiro Nakai
+  2003, Горан Ракић
+  2004-2005, Martin Willemoes Hansen
+  2004-2006, Adam Weinberger
+  2004-2006, Elijah Newren
+  2004-2006, Francisco Javier F. Serrador
+  2004-2006, Gora Mohanty
+  2004-2006, Leonid Kanter
+  2004-2007, Woodman Tuen
+  2004-2008, Maxim Dziumanenko
+  2004-2009, Baris Cicek
+  2004-2012, Luca Ferretti
+  2004-2013, Gabor Kelemen
+  2004-2016, Theppitak Karoonboonyanan
+  2004-2017, Iñaki Larrañaga Murgoitio
+  2004-2020, Amanpreet Singh Alam
+  2004, Abdulaziz Al-Arfaj
+  2004, Alastair McKinstry
+  2004, Amanpreet_Singh
+  2004, Baptiste Mille-Mathias
+  2004, Gareth Owen
+  2004, Gurban Mühemmet Tewekgeli
+  2004, Gustavo Noronha Silva
+  2004, Hizkuntza Politikarako Sailburuordetza
+  2004, Kakilik Project
+  2004, Laszlo Dvornik
+  2004, Metin Amiroff
+  2004, Paisa Seeluangsawat
+  2004, Ravishankar Shrivastava
+  2004, Rostislav Raykov
+  2004, Sanlig Badral <Badral@openmn.org>
+  2004, Tõivo Leedjärv
+  2004, Vladimir Petkov
+  2005-2006, Ankit Patel <ankit644@yahoo.com>
+  2005-2006, Elnaz Sarbar
+  2005-2006, Ignacio Casal Quinteiro
+  2005-2007, Olivier Fourdan
+  2005-2008, Hendrik Richter
+  2005-2008, Ilkka Tuohela
+  2005-2009, Clytie Siddall
+  2005-2009, Rajesh Ranjan
+  2005-2011, Ivar Smolin
+  2005, Alexandre Folle de Menezes
+  2005, Augustin KIBERWA
+  2005-2021, Canonical Ltd.
+  2005, Carole Karema
+  2005, Danilo Šegan
+  2005, Donatien NSENGIYUMVA
+  2005, Erdal Ronahi
+  2005, JEAN BAPTISTE NGENDAHAYO
+  2005, Jyotsna Shrestha
+  2005, Mahay Alam Khan
+  2005, Mahay Alam Khan
+  2005, Marcel Telka
+  2005, Michiel Sikkes
+  2005, Noëlla Mupole
+  2005, Philibert Ndandali
+  2005, Samia Niamatullah
+  2005, Samia Niamatullah
+  2005, Steve Murphy
+  2005, Viateur MUGENZI
+  2005, Yuval Tanny
+  2005, Данило Шеган
+  2006-2007, Jakub Friedl
+  2006-2008, Yannig Marchegay (Kokoyaya)
+  2006-2012, Daniel Nylander <po@danielnylander.se>
+  2006-2012, Wouter Bolsterlee
+  2006-2013, Ani Peter
+  2006-2019, Khaled Hosny
+  2006-2021, A S Alam
+  2006, Ahmad Riza H Nst
+  2006, Canonical Ltd. and Rosetta Contributors.
+  2006, Cyprien Le Pannérer
+  2006, Djihed Afifi
+  2006, Fano Rajaonarisoa
+  2006, Farzaneh Sarafraz
+  2006, Jonathan Ernst
+  2006, Lasse Bang Mikkelsen
+  2006, Matjaž Horvat
+  2006, Meelad Zakaria
+  2006, Petr Tomeš
+  2006, Rahul Bhalerao
+  2006, Runa Bhattacharjee
+  2006, Satoru SATOH
+  2006, Thierry Randrianiriana
+  2007-2008, Ignacio Casal Quinteiro
+  2007-2008, Leonardo Ferreira Fontenelle
+  2007-2008, Og Maciel
+  2007-2009, Ankit Patel <ankit@redhat.com>
+  2007-2010, Gintautas Miliauskas
+  2007-2010, Pavol Šimo
+  2007-2011, Jorge González
+  2007-2013, Seán de Búrca
+  2007-2014, Petr Kovar
+  2007-2021, Ask Hjorth Larsen
+  2007-2022, Aviary.pl
+  2007-2022, Matej Urbančič
+  2007–2011, The GNOME Project.
+  2007, ASB
+  2007, Danishka Navin
+  2007, Iain Holmes
+  2007, Ignacio Casal Quinteiro
+  2007, laksandar Navicki
+  2007, Marek Stępień
+  2007, Nabin Gautam
+  2007, Peter Tuharsky
+  2007, Raul Pereira
+  2007, Robert-André Mauchin
+  2007, Rodrigo Flores
+  2007, Stéphane Raimbault
+  2007, Wadim Dziedzic
+  2007, William Jon McCann <mccann@jhu.edu>
+  2007, Xose S. Puente
+  2008-2009, Adi Roiban h
+  2008-2009, Tomasz Dominikowski
+  2008-2011, Djavan Fagundes
+  2008-2012, David Planella
+  2008-2013, Mattias Põldaru
+  2008-2014, Shankar Prasad
+  2008-2017, Intel Corporation
+  2008-2021, Claude Paroz
+  2008, Amitakhya Phukan <amitakhya@svn.gnome.org>
+  2008, Anas Afif Emad
+  2008, Eskild Hustvedt
+  2008, Iain Holmes
+  2008, Intel Corp.
+  2008, Kenneth Nielsen
+  2008, Matthew Allum
+  2008, sandeep shedmake <sandeep.shedmake@gmail.com>
+  2008, Thomas Thurman
+  2008, Yavor Doganov
+  2009 Fotis Tsamis <
+  2009-2011, Intel Corporation.
+  2009-2012, Christian Kirbach
+  2009-2012, Fran Diéguez
+  2009-2014, Manoj Kumar Giri
+  2009-2014, Sandeep Shedmake <sshedmak@redhat.com>
+  2009, Amitakhya Phukan <aphukan@fedoraproject.org>
+  2009, Denis
+  2009, Jennie Petoumenou
+  2009, Mancomún - Centro de Referencia e Servizos de Software Libre
+  2009, Nils-Christoph Fiedler
+  2009, Runa Bhattacharjee
+  2009, Sander Dijkhuis
+  2009, Sangeeta Kumari
+  2009, Thomas Thurman
+  2009, Vladimir Melo
+  2009, 甘露(Gan Lu)
+  2010-2018, Mario Blättermann
+  2010-2022, Piotr Drąg
+  2010, Antonio Fernandes C. Neto
+  2010, Chao-Hsiung Liao
+  2010, Chao-Hsiung Liao
+  2010, Gheyret Kenji
+  2010, jiero
+  2010, Milan Bouchet-Valat
+  2010, Miloš Popović
+  2010, Philip Withnall
+  2010, Sahran
+  2010, Wei-Lun Chao
+  2010, Xandru Armesto
+  2010, Yinghua Wang
+  2010, Zeper
+  2010, Милош Поповић
+  2011-20012, Bruno Brouard
+  2011-2002, Yuriy Syrota
+  2011-2012, YunQiang Su
+  2011-2013, Ihar Hrachyshka
+  2011-2013, Richard Hughes <richard@hughsie.com>
+  2011-2014, Dirgita
+  2011-2014, Sweta Kothari
+  2011-2015, Andika Triwidada
+  2011-2017, Changwoo Ryu
+  2011-2017, Miroslav Nikolić
+  2011-2017, Muhammet Kara
+  2011-2017, Wolfgang Stöggl
+  2011-2018, Kristjan SCHMIDT
+  2011-2021, Bruce Cowan
+  2011-2022, Daniel Mustieles
+  2011-2022, Мирослав Николић
+  2011, İlker DAĞLI
+  2011, Joe Hansen
+  2011, Lele Long
+  2011, Lucian Adrian Grijincu
+  2011, Marios Zindilis
+  2011, Muhammed EKEN
+  2011, Rodrigo Padula de Oliveira
+  2011, Swecha Telugu Localisation Team
+  2011, Tommi Vainikainen
+  2011, Yuri Kozlov
+  2011,2014, Nilamdyuti Goswami
+  2012-2015, Jiri Grönroos
+  2012-2015, Yuri Myasoedov
+  2012-2016, Gil Forcada
+  2012-2017, Jiro Matsuzawa
+  2012-2017, Jordi Serratosa
+  2012-2021, Enrico Nicoletto
+  2012-2022, Fran Dieguez
+  2012-2022, Marek Černocký
+  2012-2022, Milo Casagrande
+  2012, Anish A
+  2012, chandankumar
+  2012, Chris Leonard
+  2012, Leandro Regueiro
+  2012, Noriko Mizumoto
+  2012, Sayak Sarkar
+  2012, Tobias Endrigkeit
+  2013-2014, Dimitris Spingos (Δημήτρης Σπίγγος)
+  2013-2014, sray
+  2013-2020, Baurzhan Muftakhidinov
+  2013-2021, Rafael Fontenelle
+  2013-2022, Aurimas Černius
+  2013-2022, Balázs Úr
+  2013-2022, Red Hat
+  2013-2022, Yosef Or Boczko
+  2013, Ján Kyselica
+  2013, Pavol Klačanský
+  2013, raj
+  2013, Victor Ibragimov
+  2014-2015, Daniel Korostil
+  2014-2022, Trần Ngọc Quân
+  2014, Endless Mobile
+  2014, Mattias Eriksson <snaggen@gmail.com>
+  2014, rajesh
+  2014, Tong Hui
+  2015-2018, Daniel Șerbănescu
+  2015-2022, Anders Jonsson <anders.jonsson@norsjovallen.se>
+  2015, Akom Chotiphantawanon
+  2015, Efstathios Iosifidis
+  2015, Ivan Komaritsyn
+  2015, Pedro Albuquerque
+  2016-2018, GunChleoc
+  2016-2022, Charles Monzat
+  2016, Artur de Aquino Morais
+  2016, Cédric Valmary (totenoc.eu)
+  2016, Fabio Tomat
+  2016, Hannie Dumoleyn
+  2016, Hyungwon Hwang
+  2016, Sebastian Rasmussen <sebras@gmail.com>
+  2016, Stas Solovey
+  2016, sujiniku
+  2016, Tiago Santos
+  2017-2021, Dingzhong Chen
+  2017-2022, Emin Tufan Çetin
+  2017-2022, Kukuh Syafaat
+  2017-2022, Nathan Follens
+  2017-2022, veinn í Felli
+  2017, Furkan Ahmet Kara
+  2017, Jean-Baptiste Holcroft
+  2017, Mandy Wang
+  2017, Mingcong Bai
+  2017, Yuras Shumovich
+  2018-2020, DisplayLink (UK) Ltd.
+  2018-2021, Robert Mader
+  2018-2022, Gwan-gyeong Mun
+  2018-2022, Tim Sabsch
+  2018, 2019, Red Hat, Inc
+  2018, 2019, Robert Mader robert.mader@posteo.de
+  2018, Endless, Inc.
+  2018, liushuyu
+  2018, Mart Raudsepp
+  2019-2021, Zander Brown
+  2019-2022, Asier Sarasua Garmendia
+  2019-2022, sicklylife
+  2019, Endless, Inc
+  2019, pan93412
+  2019, Sergio Costas (rastersoft@gmail.com)
+  2020-2022, Collabora, Ltd.
+  2020-2022, Hugo Carvalho
+  2020-2022, Yuri Chornoivan
+  2020, 2021, Canonical, Ltd.
+  2020, Akarshan Biswas
+  2020, Endless Foundation
+  2020, Georges Basile Stavracas Neto <georges.stavracas@gmail.com>
+  2020, Ivan Molodetskikh yalterz@gmail.com
+  2020, Jonas DreÃŸler
+  2020, Juliano de Souza Camargo
+  2020, Masanori Kamayama
+  2020, NVIDIA CORPORATION
+  2020, Sebastian Wick
+  2020, Марко М. Костић
+  2021-2022, Danial Behzadi
+  2021-2022, Luna Jernberg <droidbittin@gmail.com>
+  2021, Akihiko Odaki <akihiko.odaki@gmail.com>
+  2021, Balázs Meskó
+  2021, Christian Rauch
+  2021, Jeremy Cline
+  2021, Philipp Kiemle
+  2021, Red Hat Inc
+  2022, Daniel Mustieles García
+  2022, Dor Askayo
+  2022, Freddy Cheng
+  2022, Jürgen Benvenuti
+  2022, Leônidas Araújo
+  2022, lumingzh
+  2022, Matheus Barbosa
+  2022, Michael MORONI
+  2022, Neil Moore
 License: GPL-2+
 
-Files:
- cogl/cogl/cogl-point-in-poly.c
+Files: clutter/*
+  src/backends/edid.h
+  src/backends/meta-input-device-private.h
+  src/backends/meta-input-device.c
+  src/backends/meta-renderer-view.c
+  src/backends/meta-renderer-view.h
+  src/backends/meta-stage-impl-private.h
+  src/backends/meta-stage-view-private.h
+  src/backends/meta-stage-impl.c
+  src/backends/meta-stage-view.c
+  src/backends/native/meta-input-device-native.c
+  src/backends/native/meta-input-device-native.h
+  src/backends/native/meta-input-device-tool-native.c
+  src/backends/native/meta-input-device-tool-native.h
+  src/backends/native/meta-input-thread.h
+  src/backends/native/meta-virtual-input-device-native.c
+  src/backends/native/meta-virtual-input-device-native.h
+  src/backends/native/meta-seat-impl.c
+  src/backends/native/meta-seat-impl.h
+  src/backends/native/meta-seat-native.c
+  src/backends/native/meta-seat-native.h
+  src/backends/native/meta-xkb-utils.c
+  src/backends/native/meta-xkb-utils.h
+  src/backends/x11/meta-event-x11.c
+  src/backends/x11/meta-event-x11.h
+  src/backends/x11/meta-input-device-tool-x11.c
+  src/backends/x11/meta-input-device-tool-x11.h
+  src/backends/x11/meta-input-device-x11.c
+  src/backends/x11/meta-input-device-x11.h
+  src/backends/x11/meta-keymap-x11.c
+  src/backends/x11/meta-keymap-x11.h
+  src/backends/x11/meta-seat-x11.c
+  src/backends/x11/meta-seat-x11.h
+  src/backends/x11/meta-virtual-input-device-x11.c
+  src/backends/x11/meta-virtual-input-device-x11.h
+  src/backends/x11/meta-stage-x11.c
+  src/backends/x11/meta-stage-x11.h
+  src/core/meta-fraction.c
+  src/tests/clutter-test-utils.h
+  src/tests/clutter/*
+  src/tests/meta-ref-test.c
+  src/tests/meta-ref-test.h
+  src/tests/ref-test-sanity.c
+  src/wayland/meta-wayland-activation.h
+  src/wayland/meta-wayland-pointer-gesture-pinch.h
+  src/wayland/meta-wayland-pointer-gesture-swipe.h
+  src/wayland/meta-wayland-pointer-gestures.h
+  src/wayland/meta-wayland-tablet-manager.h
+  src/wayland/meta-wayland-tablet-pad-group.h
+  src/wayland/meta-wayland-tablet-pad-ring.h
+  src/wayland/meta-wayland-tablet-pad-strip.h
+  src/wayland/meta-wayland-tablet-pad.h
+  src/wayland/meta-wayland-tablet-seat.h
+  src/wayland/meta-wayland-tablet-tool.h
+  src/wayland/meta-wayland-tablet.h
+  src/wayland/meta-wayland-touch.h
+  src/wayland/meta-wayland-pointer-gesture-hold.c
+  src/wayland/meta-wayland-pointer-gesture-hold.h
+  src/wayland/meta-wayland-pointer.h
+  src/wayland/meta-wayland-popup.h
 Copyright:
- 1970-2003 Wm. Randolph Franklin
- 2011 Intel Corporation
+  1999, 2000, Erik Walthinsen <omega@cse.ogi.edu>
+  2001-2003, Sun Microsystems Inc.
+  2006-2008, OpenedHand
+  2006-2008, OpenedHand Ltd
+  2007-2020, Red Hat, Inc.
+  2007-2012, 2022, Intel Corporation.
+  2008, 2009, 2011-2013, Intel Corporation
+  2008-2010, Igalia, S.L.
+  2009-2012, Intel Corp.
+  2009, Intel Corportation
+  2010-2012, Inclusive Design Research Centre, OCAD University.
+  2011, Robert Bosch Car Multimedia GmbH.
+  2011-2014, Collabora Ltd.
+  2012, Bastian Winkler <buz@netbuz.org>
+  2012, Collabora Ltd..
+  2013, Emmanuele Bassi <ebassi@gnome.org>
+  2014, Jonas Ã�dahl
+  2014-2016, 2020, Red Hat
+  2015, Emmanuele Bassi
+  2016, 2019-2021, Red Hat Inc.
+  2016, Red Hat inc.
+  2018, Canonical Ltd.
+  2019, Endless, Inc
+  2020, Endless OS Foundation, LLC
+  2020, Red Hat Inc
+  2020, Red Hat Ltd.
+  2021, Red Hat
+  2021, Robert Mader.
+License: LGPL-2+
+
+Files: cogl/*
+  src/backends/native/meta-onscreen-native.c
+  src/backends/native/meta-renderer-native-private.h
+  src/backends/native/meta-renderer-native.c
+Copyright:
+  2007, 2008, OpenedHand
+  2007-2014, Intel Corporation.
+  2010-2018, Red Hat, Inc.
+  2012, Collabora Ltd.
+  2012, Intel Corporation
+  2016, 2019, 2022, Red Hat Inc.
+  2016-2020, Red Hat
+  2018, 2019, DisplayLink (UK) Ltd.
+  2020, Endless, Inc.
+  2020, Georges Basile Stavracas Neto <georges.stavracas@gmail.com>
+License: Expat
+
+Files: clutter/clutter/clutter-input-focus-private.h
+  clutter/clutter/clutter-input-focus.c
+  clutter/clutter/clutter-input-focus.h
+  clutter/clutter/clutter-input-method-private.h
+  clutter/clutter/clutter-input-method.c
+  clutter/clutter/clutter-input-method.h
+  clutter/clutter/clutter-input-pointer-a11y-private.h
+  clutter/clutter/clutter-input-pointer-a11y.c
+  clutter/clutter/clutter-keymap-private.h
+  clutter/clutter/clutter-keymap.c
+  clutter/clutter/clutter-keymap.h
+  cogl/cogl/cogl-x11-onscreen.c
+  cogl/cogl/cogl-x11-onscreen.h
+Copyright: 2013-2022, Red Hat
+  2002, 2013, 2015-2023, Red Hat Inc.
+License: GPL-2+
+
+Files: cogl/cogl/cogl-point-in-poly.c
+Copyright: 2011, Intel Corporation.
+  1970-2003, Wm. Randolph Franklin
 License: WRF-BSD-variant
 
-Files:
- src/x11/mutter-Xatomtype.h
-Copyright:
- 1987-1998 The Open Group
- 1987 Digital Equipment Corporation
+Files: cogl/cogl/cogl-list.c
+  cogl/cogl/cogl-list.h
+  src/wayland/meta-wayland-data-device-primary.c
+  src/wayland/meta-wayland-data-device-primary.h
+  src/wayland/meta-wayland-data-device.c
+  src/wayland/meta-wayland-data-device.h
+  src/wayland/meta-wayland-data-offer-primary.c
+  src/wayland/meta-wayland-data-offer-primary.h
+  src/wayland/meta-wayland-data-offer.c
+  src/wayland/meta-wayland-data-offer.h
+  src/wayland/meta-wayland-data-source-primary.c
+  src/wayland/meta-wayland-data-source-primary.h
+  src/wayland/meta-wayland-data-source.c
+  src/wayland/meta-wayland-data-source.h
+  src/wayland/meta-xwayland-dnd.c
+Copyright: 2011-2013, Intel Corporation
+  2008-2011  Kristian Høgsberg
+License: NTP-BSD-variant
+
+Files: doc/*
+  src/tests/clutter/interactive/*
+Copyright: 2021, GNOME Foundation
+  2013, Intel Corporation
+  2012, Collabora Ltd.
+License: LGPL-2.1
+
+Files: src/backends/edid-parse.c
+Copyright: 2007, Red Hat, Inc.
+License: WRF-BSD-RED-HAT
+  Permission is hereby granted, free of charge, to any person obtaining a
+  copy of this software and associated documentation files (the "Software"),
+  to deal in the Software without restriction, including without limitation
+  on the rights to use, copy, modify, merge, publish, distribute, sub
+  license, and/or sell copies of the Software, and to permit persons to whom
+  the Software is furnished to do so, subject to the following conditions:
+  .
+  The above copyright notice and this permission notice (including the next
+  paragraph) shall be included in all copies or substantial portions of the
+  Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.  IN NO EVENT SHALL
+  THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: src/backends/meta-egl-ext.h
+Copyright: 2008, Tungsten Graphics, Inc., Cedar Park, Texas.
+License: WRF-BSD-TUNGSTEN
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+  .
+  The above copyright notice and this permission notice (including the
+  next paragraph) shall be included in all copies or substantial
+  portions of the Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+Files: src/compositor/meta-sync-ring.c
+Copyright: 2011, NVIDIA Corporation
+License: NTP-BSD-NVIDIA
+  Permission to use, copy, modify, distribute, and sell this software
+  and its documentation for any purpose is hereby granted without
+  fee, provided that the above copyright notice appear in all copies
+  and that both that copyright notice and this permission notice
+  appear in supporting documentation, and that the name of NVIDIA
+  Corporation not be used in advertising or publicity pertaining to
+  distribution of the software without specific, written prior
+  permission.  NVIDIA Corporation makes no representations about the
+  suitability of this software for any purpose. It is provided "as
+  is" without express or implied warranty.
+  .
+  NVIDIA CORPORATION DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
+  SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+  FITNESS, IN NO EVENT SHALL NVIDIA CORPORATION BE LIABLE FOR ANY
+  SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+  AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+  OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+  SOFTWARE.
+
+Files: src/tests/dbusmock-templates/*
+Copyright: no-info-found
+License: LGPL-3+
+
+Files: src/tests/wayland-test-clients/wayland-test-client-utils.c
+Copyright: 2012, Collabora, Ltd.
+License: WRF-BSD-COLLABORA
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+  .
+  The above copyright notice and this permission notice (including the
+  next paragraph) shall be included in all copies or substantial
+  portions of the Software.
+  .
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+Files: src/wayland/meta-wayland-keyboard.c
+  src/wayland/meta-wayland-keyboard.h
+Copyright: 2013, Intel Corporation
+  2010-2011 Intel Corporation
+  2008-2011 Kristian Høgsberg
+  2012 Collabora, Ltd.
+License: GPL-2+ and NTP-BSD-variant
+
+Files: src/wayland/meta-wayland-pointer.c
+  src/wayland/meta-wayland-popup.c
+Copyright: 2013, Intel Corporation
+  2015, Red Hat, Inc.
+  2008 Kristian Høgsberg
+License: NTP-BSD-variant and LGPL-2+
+
+Files: src/x11/meta-x11-selection-input-stream-private.h
+  src/x11/meta-x11-selection-input-stream.c
+  src/x11/meta-x11-selection-output-stream-private.h
+  src/x11/meta-x11-selection-output-stream.c
+Copyright: 2017, Red Hat, Inc.
+License: LGPL-2.1+
+
+Files: src/x11/mutter-Xatomtype.h
+Copyright: 1987, 1998, The Open Group
 License: DEC-BSD-variant and OpenGroup-BSD-variant
 
-Files:
- src/x11/xprops.c
-Copyright:
- 1987-1998 The Open Group
- 1987 Digital Equipment Corporation
- 1998 Wyse Technology Inc
- 2001 Havoc Pennington
- 2002 Red Hat Inc
+Files: src/x11/xprops.c
+Copyright: 2002, Red Hat Inc.
+  2001, Havoc Pennington
+  1988, Wyse Technology, Inc., San Jose, Ca
+  1987, Digital Equipment Corporation, Maynard, Massachusetts
+  1987, 1988, 1998, The Open Group
 License: DEC-BSD-variant and OpenGroup-BSD-variant and GPL-2+
-
-Files:
- src/tests/clutter/interactive/test-rotate-zoom.c
- src/tests/clutter/interactive/test-touch-events.c
-Copyright:
- 2013 Intel Corporation
- 2012 Collabora Ltd
-License: LGPL-2.1
 
 Files: debian/*
 Copyright: 2023, David Mohammed <fossfreedom@ubuntu.com>
 License: GPL-2+
+
+License: LGPL-2.1
+  This program is free software; you can redistribute it and/or modify it
+  under the terms of the GNU Lesser General Public License as published by the
+  Free Software Foundation; version 2.1 of the License.
+  On Debian systems, the complete text of version 2.1 of the GNU Lesser
+  General Public License can be found in '/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-3+
+  This program is free software; you can redistribute it and/or modify it
+  under the terms of the GNU Lesser General Public License as published by the
+  Free Software Foundation; version 3 of the License, or (at
+  your option) any later version.
+  On Debian systems, the complete text of version 3 of the GNU Lesser
+  General Public License can be found in '/usr/share/common-licenses/LGPL-3'.
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
@@ -172,21 +716,6 @@ Comment:
  Public License version 2 can be found in
  /usr/share/common-licenses/GPL-2.
 
-License: GPL-3+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 3 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-Comment:
- On Debian systems, the complete text of the GNU General
- Public License version 3 can be found in
- /usr/share/common-licenses/GPL-3.
-
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -201,20 +730,6 @@ Comment:
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in
  /usr/share/common-licenses/LGPL-2, and the complete text of the
- GNU Lesser General Public License version 2.1 can be found in
- /usr/share/common-licenses/LGPL-2.1.
-
-License: LGPL-2.1
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public License,
- version 2.1 as published by the Free Software Foundation.
- .
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
-Comment:
- On Debian systems, the complete text of the
  GNU Lesser General Public License version 2.1 can be found in
  /usr/share/common-licenses/LGPL-2.1.
 
@@ -336,29 +851,3 @@ License: DEC-BSD-variant
  WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
  ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
  SOFTWARE.
-
-License: SGI-B-2.0
- Permission is hereby granted, free of charge, to any person obtaining a
- copy of this software and associated documentation files (the "Software"),
- to deal in the Software without restriction, including without limitation
- the rights to use, copy, modify, merge, publish, distribute, sublicense,
- and/or sell copies of the Software, and to permit persons to whom the
- Software is furnished to do so, subject to the following conditions:
- .
- The above copyright notice including the dates of first publication and
- either this permission notice or a reference to
- http://oss.sgi.com/projects/FreeB/
- shall be included in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- SILICON GRAPHICS, INC. BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
- OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- SOFTWARE.
- .
- Except as contained in this notice, the name of Silicon Graphics, Inc.
- shall not be used in advertising or otherwise to promote the sale, use or
- other dealings in this Software without prior written authorization from
- Silicon Graphics, Inc.

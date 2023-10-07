@@ -701,7 +701,6 @@ libmagpie-0.so.0 libmagpie-0-0 #MINVER#
  meta_window_can_close@Base 0.9
  meta_window_can_maximize@Base 0.9
  meta_window_can_minimize@Base 0.9
- meta_window_can_shade@Base 0.9
  meta_window_change_workspace@Base 0.9
  meta_window_change_workspace_by_index@Base 0.9
  meta_window_check_alive@Base 0.9
@@ -775,7 +774,6 @@ libmagpie-0.so.0 libmagpie-0-0 #MINVER#
  meta_window_is_override_redirect@Base 0.9
  meta_window_is_remote@Base 0.9
  meta_window_is_screen_sized@Base 0.9
- meta_window_is_shaded@Base 0.9
  meta_window_is_skip_taskbar@Base 0.9
  meta_window_kill@Base 0.9
  meta_window_located_on_workspace@Base 0.9
@@ -793,7 +791,6 @@ libmagpie-0.so.0 libmagpie-0-0 #MINVER#
  meta_window_set_compositor_private@Base 0.9
  meta_window_set_demands_attention@Base 0.9
  meta_window_set_icon_geometry@Base 0.9
- meta_window_shade@Base 0.9
  meta_window_shape_equal@Base 0.9
  meta_window_shape_get_borders@Base 0.9
  meta_window_shape_get_type@Base 0.9
@@ -814,7 +811,6 @@ libmagpie-0.so.0 libmagpie-0-0 #MINVER#
  meta_window_unmaximize@Base 0.9
  meta_window_unminimize@Base 0.9
  meta_window_unset_demands_attention@Base 0.9
- meta_window_unshade@Base 0.9
  meta_window_unstick@Base 0.9
  meta_window_untile@Base 0.9
  meta_workspace_activate@Base 0.9
