@@ -1,6 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/buddiesofbudgie/magpie/
 Upstream-Name: magpie
+Comment: Magpie is a soft fork of Debian Bookworm v43 mutter package.
+  Copyright was originally based on this package.
 Upstream-Contact: Budgie Developers <admin@buddiesofbudgie.org>
 
 Files: *
