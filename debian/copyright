@@ -528,12 +528,8 @@ Copyright: 2011, Intel Corporation.
   1970-2003, Wm. Randolph Franklin
 License: WRF-BSD-variant
 
-Files: cogl/cogl/cogl-list.c
-  cogl/cogl/cogl-list.h
-  src/wayland/meta-wayland-data-device-primary.c
+Files: 
   src/wayland/meta-wayland-data-device-primary.h
-  src/wayland/meta-wayland-data-device.c
-  src/wayland/meta-wayland-data-device.h
   src/wayland/meta-wayland-data-offer-primary.c
   src/wayland/meta-wayland-data-offer-primary.h
   src/wayland/meta-wayland-data-offer.c
@@ -542,9 +538,25 @@ Files: cogl/cogl/cogl-list.c
   src/wayland/meta-wayland-data-source-primary.h
   src/wayland/meta-wayland-data-source.c
   src/wayland/meta-wayland-data-source.h
-  src/wayland/meta-xwayland-dnd.c
+Copyright: 2008-2011 Kristian Høgsberg
+  2020 Red Hat Inc.
+License: NTP-BSD-variant
+
+Files: 
+  src/wayland/meta-wayland-data-device-primary.c
+  src/wayland/meta-wayland-data-device.c
+  src/wayland/meta-wayland-data-device.h
+Copyright: 2008-2011 Kristian Høgsberg
+License: NTP-BSD-variant
+
+Files: cogl/cogl/cogl-list.c
+  cogl/cogl/cogl-list.h
 Copyright: 2011-2013, Intel Corporation
-  2008-2011  Kristian Høgsberg
+  2008-2011 Kristian Høgsberg
+License: NTP-BSD-variant
+
+Files: src/wayland/meta-xwayland-dnd.c
+Copyright: 2012, Intel Corporation
 License: NTP-BSD-variant
 
 Files: doc/*
