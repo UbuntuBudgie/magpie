@@ -399,6 +399,8 @@ libmagpie-0.so.0 libmagpie-0-0 #MINVER#
  meta_monitor_config_store_set_custom@Base 0.9
  meta_monitor_crtc_to_logical_transform@Base 0.9
  meta_monitor_derive_current_mode@Base 0.9
+ meta_monitor_get_backlight@Base 0.9.4
+ meta_monitor_get_backlight_info@Base 0.9.4
  meta_monitor_get_connector@Base 0.9
  meta_monitor_get_connector_type@Base 0.9
  meta_monitor_get_current_mode@Base 0.9

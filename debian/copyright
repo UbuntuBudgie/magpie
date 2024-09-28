@@ -528,7 +528,7 @@ Copyright: 2011, Intel Corporation.
   1970-2003, Wm. Randolph Franklin
 License: WRF-BSD-variant
 
-Files: 
+Files:
   src/wayland/meta-wayland-data-device-primary.h
   src/wayland/meta-wayland-data-offer-primary.c
   src/wayland/meta-wayland-data-offer-primary.h
@@ -542,7 +542,7 @@ Copyright: 2008-2011 Kristian Høgsberg
   2020 Red Hat Inc.
 License: NTP-BSD-variant
 
-Files: 
+Files:
   src/wayland/meta-wayland-data-device-primary.c
   src/wayland/meta-wayland-data-device.c
   src/wayland/meta-wayland-data-device.h
