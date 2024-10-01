@@ -1,18 +1,20 @@
-magpie (0.9.4-1) UNRELEASED; urgency=medium
+magpie (0.9.4-1) unstable; urgency=medium
 
   * New upstream release
   - Adapt to gnome-settings-daemon v47 (LP: #2080797)
   * Packaging Changes
-  - d/control rework version restrictions and dependencies to resolve
+  - d/control B/D add restriction for gnome-settings-daemon due
+    to the extra patch
+    d/control rework version restrictions and dependencies to resolve
     FTBFS and run wrap-and-sort to tidy (Closes: #1082892)
-    update libmagpie symbols for the new microrelease methods
+    update libmagpie symbols for the patch new methods
   - d/control B/D replace obsolete pkg-config with pkgconf
   - d/control remove control.in and B/D dh-sequence-gnome since noble
     gnome apps have moved away from requiring this control packaging format
   - d/rules no longer build with remote desktop support since GNOME 46
     gnome-remote-desktop only works with gnome-shell v46/GDM3
 
- -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 28 Sep 2024 14:56:50 +0100
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 28 Sep 2024 15:20:53 +0100
 
 magpie (0.9.3-1) unstable; urgency=medium
 
