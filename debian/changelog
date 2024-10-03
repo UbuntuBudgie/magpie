@@ -1,3 +1,13 @@
+magpie (0.9.4-2) unstable; urgency=medium
+
+  * Don't enable sysprof for i386 since is no longer available
+    Closes: #1083182
+  * Packaging Changes
+    d/control add B/D i386 restriction for sysprof
+    d/control add profiler config flag for i386 restriction
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Thu, 03 Oct 2024 19:34:06 +0100
+
 magpie (0.9.4-1) unstable; urgency=medium
 
   * New upstream release
