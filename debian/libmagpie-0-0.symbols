@@ -2688,11 +2688,11 @@ libmagpie-cogl-0.so.0 libmagpie-0-0 #MINVER#
  cogl_texture_set_premultiplied@Base 0.9
  cogl_texture_set_region@Base 0.9
  cogl_texture_set_region_from_bitmap@Base 0.9
- cogl_trace_context@Base 0.9
- cogl_trace_describe@Base 0.9
- cogl_trace_end@Base 0.9
- cogl_trace_mutex@Base 0.9
- cogl_trace_thread_data@Base 0.9
+ (arch=!i386)cogl_trace_context@Base 0.9
+ (arch=!i386)cogl_trace_describe@Base 0.9
+ (arch=!i386)cogl_trace_end@Base 0.9
+ (arch=!i386)cogl_trace_mutex@Base 0.9
+ (arch=!i386)cogl_trace_thread_data@Base 0.9
  cogl_x11_onscreen_get_type@Base 0.9
  cogl_x11_onscreen_get_x11_window@Base 0.9
  cogl_xlib_renderer_add_filter@Base 0.9
